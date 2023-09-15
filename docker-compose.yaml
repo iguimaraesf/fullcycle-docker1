@@ -1,0 +1,8 @@
+version: '3'
+services:
+  gohello:
+    container_name: gohello
+    build:
+      context: ./src
+      dockerfile: dockerfile
+    image: ivanguimaraes/fullcycle
